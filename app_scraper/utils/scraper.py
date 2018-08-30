@@ -62,7 +62,7 @@ def get_title(soup):
 
 def get_current_price(soup):
     """
-    Returns the product's current price, after discounts
+    Returns the product's current price
     """
     now_price = soup.find('span', attrs={'id': 'mm-saleDscPrc'})
     if not now_price:
