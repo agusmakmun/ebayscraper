@@ -93,10 +93,10 @@ def scrape_product_info(url, num_retries=10):
     {'item_specific': {'color': 'Black', 'size': 'S'},
      'current_price': 'US $13.99',
      'item_id': '273402419771',
-     'name': b"Baju Women's Sleeveless Maxi Dress w/ Pockets Sz. S Black White Turle Print"
+     'name': "Baju Women's Sleeveless Maxi Dress w/ Pockets Sz. S Black White Turle Print"
      }
 
-    {'name': b"Bill Blass Women's Short Sleeve Button Front Blouse Sz. M White",
+    {'name': "Bill Blass Women's Short Sleeve Button Front Blouse Sz. M White",
      'current_price': 'US $6.99',
      'item_id': '273381497394',
      'item_specific': {'color': 'White', 'size': 'Regular'}
