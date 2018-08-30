@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <div class="jumbotron">
+    <h1>Cart</h1>
+  </div>
+
+  <table class="table">
+    <thead>
+      <tr>
+        <td>Name</td>
+        <td>Item ID</td>
+        <td>Price</td>
+        <td>Color</td>
+        <td>Size</td>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>{{ product.name }}</td>
+        <td>{{ product.item_id }}</td>
+        <td>{{ product.price }}</td>
+        <td>{{ product.color }}</td>
+        <td>{{ product.size }}</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div>
+    <p><a class="btn btn-warning" href="{% url 'product_payment_detail' pk=product.pk %}">Process Payment</a></p>
+  </div>
+{% endblock %}
