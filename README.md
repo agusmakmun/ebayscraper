@@ -1,7 +1,7 @@
-ebayscrapper :raised_hands:
+ebayscraper :raised_hands:
 ===========================
 
-Simply ebay scrapper app on Django.
+Simply ebay scraper app on Django.
 
 ![homepage](__screenshot/1.png)
 
@@ -24,7 +24,7 @@ $ source bin/activate
 **2. Cloning this project**
 
 ```
-$ git clone git@github.com:agusmakmun/ebayscrapper.git
+$ git clone git@github.com:agusmakmun/ebayscraper.git
 ```
 
 **3. Install all requirements**
