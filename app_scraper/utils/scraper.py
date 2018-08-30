@@ -72,11 +72,8 @@ def get_current_price(soup):
 
 def get_item_specific(soup):
     """
-    Returns a dictionary containing the history of the product's sales(up to
-    the 100 most recent sales) in which a counter is assigned as the key
-    mapping to the sale information.
+    Returns a dictionary containing the item information.
     """
-
     item_description = soup.find('div', attrs={'id': 'viTabs_0_is'})
     table = item_description.find_all('table')[-1]
     labels = table.find_all('td', attrs={'class': 'attrLabels'})  # text="Size (Women's):")
